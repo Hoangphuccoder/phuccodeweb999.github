@@ -1,0 +1,174 @@
+body{
+    background-image:url(/images/d1.mp4);
+}
+.container{width: 1200px; margin: 0 auto;}
+.container > header{
+    height: 250px;
+    background-image: url(images/banner.jpg);
+    background-size: 100% 100%;
+}
+.container>nav{
+    height: 45px; background: orangered;
+}
+.container > main> article{
+    width: 75%; height: 723px; float: left;
+    background: darkkhaki
+}
+.container > main > aside{
+    width: 24%; height: 729px; float: right;
+    background: lightgray;
+}
+.container > footer {
+    height: 60px; clear: both;
+    background: orangered;
+    border-top: 5px double orangered;
+}
+.container nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+.container nav a:hover{color: black;}
+.container aside ul{
+    margin: 0; padding: 0; list-style: none;
+}
+.container aside ul li{
+    border-bottom: 1px solid darkcyan;
+    padding: 10px 0 10px 30px;
+    background: url() no-repeat 5px 13px;
+}
+.container aside ul li a{
+    color: darkgreen;
+}
+.container aside ul li a:hover{color: red;}
+nav {text-align: center;
+    color:white;
+}
+nav:hover{color:black;}
+
+footer{text-align: center;
+padding: 10px;}
+.container > nav {
+    height: 45px;
+    line-height: 45px;
+    background: orangered;
+    margin: 5px 0;}
+    nav ul {
+        margin: 0; padding: 0
+    }
+    nav > ul > li {
+        display: inline-block;
+        position: relative;
+    }
+    nav > ul > li > a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-variant:small-caps;
+        font-size:large;
+        padding: 0 10px;
+        line-height: 45px;
+    }
+    nav ul ul {
+        position: absolute; 
+        display: none;
+    }
+    nav > ul>li:hover>ul {
+        display: block;
+        width: 180px;
+        list-style: none;
+        border-radius: 3px;
+        box-shadow:0 0 1px gray;
+        background-color: white;
+        text-align: left;
+    }
+    nav > ul>li:hover>ul a{
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size:larger;
+    padding:5px 0 5px 10px;
+    }
+    p {padding-top:0px;}
+    .container> footer{
+        height: 45px; background: orangered;
+    }
+    .container footer a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 45px;
+        margin-right: 10px;
+    }
+    .container footer a:hover{color: black;}
+    footer {text-align: center;
+        color:white;
+    }
+    footer:hover{color:black;}
+    .container > nav {
+        height: 45px;
+        line-height: 45px;
+        background: orangered;
+        margin: 5px 0;}
+        footer ul {
+            margin: 0; padding: 0
+        }
+        footer > ul > li {
+            display: inline-block;
+            position: relative;
+        }
+        footer > ul > li > a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-variant:small-caps;
+            font-size:large;
+            padding: 0 10px;
+            line-height: 45px;
+        }
+        footer ul ul {
+            position: absolute; 
+            display: none;
+        }
+        footer > ul>li:hover>ul {
+            display: block;
+            width: 180px;
+            list-style: none;
+            border-radius: 3px;
+            box-shadow:0 0 1px gray;
+            background-color: white;
+            text-align: left;
+        }
+        footer > ul>li:hover>ul a{
+        color: orangered;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size:larger;
+        padding:5px 0 5px 10px;
+        }
+       .fb-like {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        padding-left: 10%;
+       }
+       .p1 {
+        background-color: rgb(104, 234, 17);
+        position: relative;
+        overflow: hidden;
+        margin-bottom:15px;
+        border-radius: 20px;
+        box-shadow:0 0 15px rgba(0, 0, 0, .3); ;
+       }
+       .p2
+       {
+        position: relative;
+      background-color: #b7cb36f6;
+       overflow: hidden; 
+       margin-bottom: 15px; 
+       border-radius: 20px; 
+       box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+       }
+    

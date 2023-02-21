@@ -1,0 +1,88 @@
+/* page styles */
+body { font-size:62.5%; font-family: "Segoe UI", Frutiger,Tahoma,Helvetica,"Helvetica Neue", Arial, sans-serif; background-color:#f9f9f9;}
+
+/*demo styles*/
+#containerLocal {
+	background-color:#02021a;
+	position: absolute;
+	color: white;
+	width: 600px;
+	height: 300px;
+	left: 50%; 
+	top: 20%;
+ 	margin-left: -300px;
+	margin-top: -150px;
+	border-radius: 4px;
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+
+}
+#containerSession {
+	background-color:#02021a;
+	position: absolute;
+	color: white;
+	width: 600px;
+	height: 300px;
+	left: 50%; 
+	top: 20%;
+ 	margin-left: -300px;
+	margin-top: 250px;
+	border-radius: 4px;
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+
+}
+
+table { 
+	width: 500px; 
+	height: 200px; 
+	margin-left: 50px;  
+	border-collapse: separate; 
+	border-spacing: 4px;
+	color:#000;
+}
+
+th { 
+	background-color:#f9f9f9;  
+	font-size: 1.2em; 
+	padding: 2px; 
+	width: 13%; 
+}
+td input { 
+	width:92%;
+	height:92%; 
+	border:none;
+	text-align: center; 
+	font-size: 0.96em; 
+	padding: 2px;
+	background-color:transparent;
+	color:#f4f4f4;  
+}
+td, th { 
+	text-align: center; 
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+}
+caption { 
+	font-size: 1.5em; 
+	margin: 0 0 .5em; 
+	/*font-weight: bold;*/
+	color:#f4f4f4;
+}
+
+.DataOptions {
+	width:220px;
+	height:26px;
+	margin-left:180px;
+	margin-top:20px;
+	text-align:center;
+	background-color:#f4f4f4;
+	border: 1px solid #ddd;
+	border-radius: 4px; 
+    padding:2px 5px;
+}
+#out { border-style:hidden;}
+
+h3 { color:#f4f4f4;}

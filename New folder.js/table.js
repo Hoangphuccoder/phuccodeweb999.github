@@ -1,0 +1,332 @@
+// JavaScript Document
+
+// JavaScript localStorage
+function SaveDataLocal ()
+	{
+		var testo = document.getElementById("datiTable1").value;
+	localStorage.setItem("datiTable1", testo);
+		var testo = document.getElementById("datiTable2").value;
+	localStorage.setItem("datiTable2", testo);
+		var testo = document.getElementById("datiTable3").value;
+	localStorage.setItem("datiTable3", testo);
+		var testo = document.getElementById("datiTable4").value;
+	localStorage.setItem("datiTable4", testo);
+		var testo = document.getElementById("datiTable5").value;
+	localStorage.setItem("datiTable5", testo);
+		var testo = document.getElementById("datiTable6").value;
+	localStorage.setItem("datiTable6", testo);
+		var testo = document.getElementById("datiTable7").value;
+	localStorage.setItem("datiTable7", testo);
+		var testo = document.getElementById("datiTable8").value;
+	localStorage.setItem("datiTable8", testo);
+		var testo = document.getElementById("datiTable9").value;
+	localStorage.setItem("datiTable9", testo);
+		var testo = document.getElementById("datiTable10").value;
+	localStorage.setItem("datiTable10", testo);
+		var testo = document.getElementById("datiTable11").value;
+	localStorage.setItem("datiTable11", testo);
+		var testo = document.getElementById("datiTable12").value;
+	localStorage.setItem("datiTable12", testo);
+		var testo = document.getElementById("datiTable13").value;
+	localStorage.setItem("datiTable13", testo);
+		var testo = document.getElementById("datiTable14").value;
+	localStorage.setItem("datiTable14", testo);
+		var testo = document.getElementById("datiTable15").value;
+	localStorage.setItem("datiTable15", testo);
+		var testo = document.getElementById("datiTable16").value;
+	localStorage.setItem("datiTable16", testo);
+		var testo = document.getElementById("datiTable17").value;
+	localStorage.setItem("datiTable17", testo);
+		var testo = document.getElementById("datiTable18").value;
+	localStorage.setItem("datiTable18", testo);
+		var testo = document.getElementById("datiTable19").value;
+	localStorage.setItem("datiTable19", testo);
+		var testo = document.getElementById("datiTable20").value;
+	localStorage.setItem("datiTable20", testo);
+		var testo = document.getElementById("datiTable21").value;
+	localStorage.setItem("datiTable21", testo);
+		var testo = document.getElementById("datiTable22").value;
+	localStorage.setItem("datiTable22", testo);
+		var testo = document.getElementById("datiTable23").value;
+	localStorage.setItem("datiTable23", testo);
+		var testo = document.getElementById("datiTable24").value;
+	localStorage.setItem("datiTable24", testo);
+		var testo = document.getElementById("datiTable25").value;
+	localStorage.setItem("datiTable25", testo);
+		var testo = document.getElementById("datiTable26").value;
+	localStorage.setItem("datiTable26", testo);
+		var testo = document.getElementById("datiTable27").value;
+	localStorage.setItem("datiTable27", testo);
+		var testo = document.getElementById("datiTable28").value;
+	localStorage.setItem("datiTable28", testo);
+		var testo = document.getElementById("datiTable29").value;
+	localStorage.setItem("datiTable29", testo);
+		var testo = document.getElementById("datiTable30").value;
+	localStorage.setItem("datiTable30", testo);
+	}
+	
+function RestoreDataLocal ()
+
+	{
+	document.getElementById("datiTable1").value = localStorage.getItem("datiTable1");
+	document.getElementById("datiTable2").value = localStorage.getItem("datiTable2");
+	document.getElementById("datiTable3").value = localStorage.getItem("datiTable3");
+	document.getElementById("datiTable4").value = localStorage.getItem("datiTable4");
+	document.getElementById("datiTable5").value = localStorage.getItem("datiTable5");
+	document.getElementById("datiTable6").value = localStorage.getItem("datiTable6");
+	document.getElementById("datiTable7").value = localStorage.getItem("datiTable7");
+	document.getElementById("datiTable8").value = localStorage.getItem("datiTable8");
+	document.getElementById("datiTable9").value = localStorage.getItem("datiTable9");
+	document.getElementById("datiTable10").value = localStorage.getItem("datiTable10");
+	document.getElementById("datiTable11").value = localStorage.getItem("datiTable11");
+	document.getElementById("datiTable12").value = localStorage.getItem("datiTable12");
+	document.getElementById("datiTable13").value = localStorage.getItem("datiTable13");
+	document.getElementById("datiTable14").value = localStorage.getItem("datiTable14");
+	document.getElementById("datiTable15").value = localStorage.getItem("datiTable15");
+	document.getElementById("datiTable16").value = localStorage.getItem("datiTable16");
+	document.getElementById("datiTable17").value = localStorage.getItem("datiTable17");
+	document.getElementById("datiTable18").value = localStorage.getItem("datiTable18");
+	document.getElementById("datiTable19").value = localStorage.getItem("datiTable19");
+	document.getElementById("datiTable20").value = localStorage.getItem("datiTable20");
+	document.getElementById("datiTable21").value = localStorage.getItem("datiTable21");
+	document.getElementById("datiTable22").value = localStorage.getItem("datiTable22");
+	document.getElementById("datiTable23").value = localStorage.getItem("datiTable23");
+	document.getElementById("datiTable24").value = localStorage.getItem("datiTable24");
+	document.getElementById("datiTable25").value = localStorage.getItem("datiTable25");
+	document.getElementById("datiTable26").value = localStorage.getItem("datiTable26");
+	document.getElementById("datiTable27").value = localStorage.getItem("datiTable27");
+	document.getElementById("datiTable28").value = localStorage.getItem("datiTable28");
+	document.getElementById("datiTable29").value = localStorage.getItem("datiTable29");
+	document.getElementById("datiTable30").value = localStorage.getItem("datiTable30");
+	}
+	
+function DeleteDataLocal ()
+	{
+	localStorage.removeItem("datiTable1");
+	document.getElementById("datiTable1").value = "";
+	localStorage.removeItem("datiTable2");
+	document.getElementById("datiTable2").value = "";
+	localStorage.removeItem("datiTable3");
+	document.getElementById("datiTable3").value = "";
+	localStorage.removeItem("datiTable4");
+	document.getElementById("datiTable4").value = "";
+	localStorage.removeItem("datiTable5");
+	document.getElementById("datiTable5").value = "";
+	localStorage.removeItem("datiTable6");
+	document.getElementById("datiTable6").value = "";
+	localStorage.removeItem("datiTable7");
+	document.getElementById("datiTable7").value = "";
+	localStorage.removeItem("datiTable8");
+	document.getElementById("datiTable8").value = "";
+	localStorage.removeItem("datiTable9");
+	document.getElementById("datiTable9").value = "";
+	localStorage.removeItem("datiTable10");
+	document.getElementById("datiTable10").value = "";
+	localStorage.removeItem("datiTable11");
+	document.getElementById("datiTable11").value = "";
+	localStorage.removeItem("datiTable12");
+	document.getElementById("datiTable12").value = "";
+	localStorage.removeItem("datiTable13");
+	document.getElementById("datiTable13").value = "";
+	localStorage.removeItem("datiTable14");
+	document.getElementById("datiTable14").value = "";
+	localStorage.removeItem("datiTable15");
+	document.getElementById("datiTable15").value = "";
+	localStorage.removeItem("datiTable16");
+	document.getElementById("datiTable16").value = "";
+	localStorage.removeItem("datiTable17");
+	document.getElementById("datiTable17").value = "";
+	localStorage.removeItem("datiTable18");
+	document.getElementById("datiTable18").value = "";
+	localStorage.removeItem("datiTable19");
+	document.getElementById("datiTable19").value = "";
+	localStorage.removeItem("datiTable20");
+	document.getElementById("datiTable20").value = "";
+	localStorage.removeItem("datiTable21");
+	document.getElementById("datiTable21").value = "";
+	localStorage.removeItem("datiTable22");
+	document.getElementById("datiTable22").value = "";
+	localStorage.removeItem("datiTable23");
+	document.getElementById("datiTable23").value = "";
+	localStorage.removeItem("datiTable24");
+	document.getElementById("datiTable24").value = "";
+	localStorage.removeItem("datiTable25");
+	document.getElementById("datiTable25").value = "";
+	localStorage.removeItem("datiTable26");
+	document.getElementById("datiTable26").value = "";
+	localStorage.removeItem("datiTable27");
+	document.getElementById("datiTable27").value = "";
+	localStorage.removeItem("datiTable28");
+	document.getElementById("datiTable28").value = "";
+	localStorage.removeItem("datiTable29");
+	document.getElementById("datiTable29").value = "";
+	localStorage.removeItem("datiTable30");
+	document.getElementById("datiTable30").value = "";
+	}
+	
+// JavaScript sessionStorage
+
+function SaveDataSession ()
+	{
+		var testo = document.getElementById("dataTable1").value;
+	sessionStorage.setItem("dataTable1", testo);
+		var testo = document.getElementById("dataTable2").value;
+	sessionStorage.setItem("dataTable2", testo);
+		var testo = document.getElementById("dataTable3").value;
+	sessionStorage.setItem("dataTable3", testo);
+		var testo = document.getElementById("dataTable4").value;
+	sessionStorage.setItem("dataTable4", testo);
+		var testo = document.getElementById("dataTable5").value;
+	sessionStorage.setItem("dataTable5", testo);
+		var testo = document.getElementById("dataTable6").value;
+	sessionStorage.setItem("dataTable6", testo);
+		var testo = document.getElementById("dataTable7").value;
+	sessionStorage.setItem("dataTable7", testo);
+		var testo = document.getElementById("dataTable8").value;
+	sessionStorage.setItem("dataTable8", testo);
+		var testo = document.getElementById("dataTable9").value;
+	sessionStorage.setItem("dataTable9", testo);
+		var testo = document.getElementById("dataTable10").value;
+	sessionStorage.setItem("dataTable10", testo);
+		var testo = document.getElementById("dataTable11").value;
+	sessionStorage.setItem("dataTable11", testo);
+		var testo = document.getElementById("dataTable12").value;
+	sessionStorage.setItem("dataTable12", testo);
+		var testo = document.getElementById("dataTable13").value;
+	sessionStorage.setItem("dataTable13", testo);
+		var testo = document.getElementById("dataTable14").value;
+	sessionStorage.setItem("dataTable14", testo);
+		var testo = document.getElementById("dataTable15").value;
+	sessionStorage.setItem("dataTable15", testo);
+		var testo = document.getElementById("dataTable16").value;
+	sessionStorage.setItem("dataTable16", testo);
+		var testo = document.getElementById("dataTable17").value;
+	sessionStorage.setItem("dataTable17", testo);
+		var testo = document.getElementById("dataTable18").value;
+	sessionStorage.setItem("dataTable18", testo);
+		var testo = document.getElementById("dataTable19").value;
+	sessionStorage.setItem("dataTable19", testo);
+		var testo = document.getElementById("dataTable20").value;
+	sessionStorage.setItem("dataTable20", testo);
+		var testo = document.getElementById("dataTable21").value;
+	sessionStorage.setItem("dataTable21", testo);
+		var testo = document.getElementById("dataTable22").value;
+	sessionStorage.setItem("dataTable22", testo);
+		var testo = document.getElementById("dataTable23").value;
+	sessionStorage.setItem("dataTable23", testo);
+		var testo = document.getElementById("dataTable24").value;
+	sessionStorage.setItem("dataTable24", testo);
+		var testo = document.getElementById("dataTable25").value;
+	sessionStorage.setItem("dataTable25", testo);
+		var testo = document.getElementById("dataTable26").value;
+	sessionStorage.setItem("dataTable26", testo);
+		var testo = document.getElementById("dataTable27").value;
+	sessionStorage.setItem("dataTable27", testo);
+		var testo = document.getElementById("dataTable28").value;
+	sessionStorage.setItem("dataTable28", testo);
+		var testo = document.getElementById("dataTable29").value;
+	sessionStorage.setItem("dataTable29", testo);
+		var testo = document.getElementById("dataTable30").value;
+	sessionStorage.setItem("dataTable30", testo);
+	}
+	
+function RestoreDataSession ()
+
+	{
+	document.getElementById("dataTable1").value = sessionStorage.getItem("dataTable1");
+	document.getElementById("dataTable2").value = sessionStorage.getItem("dataTable2");
+	document.getElementById("dataTable3").value = sessionStorage.getItem("dataTable3");
+	document.getElementById("dataTable4").value = sessionStorage.getItem("dataTable4");
+	document.getElementById("dataTable5").value = sessionStorage.getItem("dataTable5");
+	document.getElementById("dataTable6").value = sessionStorage.getItem("dataTable6");
+	document.getElementById("dataTable7").value = sessionStorage.getItem("dataTable7");
+	document.getElementById("dataTable8").value = sessionStorage.getItem("dataTable8");
+	document.getElementById("dataTable9").value = sessionStorage.getItem("dataTable9");
+	document.getElementById("dataTable10").value = sessionStorage.getItem("dataTable10");
+	document.getElementById("dataTable11").value = sessionStorage.getItem("dataTable11");
+	document.getElementById("dataTable12").value = sessionStorage.getItem("dataTable12");
+	document.getElementById("dataTable13").value = sessionStorage.getItem("dataTable13");
+	document.getElementById("dataTable14").value = sessionStorage.getItem("dataTable14");
+	document.getElementById("dataTable15").value = sessionStorage.getItem("dataTable15");
+	document.getElementById("dataTable16").value = sessionStorage.getItem("dataTable16");
+	document.getElementById("dataTable17").value = sessionStorage.getItem("dataTable17");
+	document.getElementById("dataTable18").value = sessionStorage.getItem("dataTable18");
+	document.getElementById("dataTable19").value = sessionStorage.getItem("dataTable19");
+	document.getElementById("dataTable20").value = sessionStorage.getItem("dataTable20");
+	document.getElementById("dataTable21").value = sessionStorage.getItem("dataTable21");
+	document.getElementById("dataTable22").value = sessionStorage.getItem("dataTable22");
+	document.getElementById("dataTable23").value = sessionStorage.getItem("dataTable23");
+	document.getElementById("dataTable24").value = sessionStorage.getItem("dataTable24");
+	document.getElementById("dataTable25").value = sessionStorage.getItem("dataTable25");
+	document.getElementById("dataTable26").value = sessionStorage.getItem("dataTable26");
+	document.getElementById("dataTable27").value = sessionStorage.getItem("dataTable27");
+	document.getElementById("dataTable28").value = sessionStorage.getItem("dataTable28");
+	document.getElementById("dataTable29").value = sessionStorage.getItem("dataTable29");
+	document.getElementById("dataTable30").value = sessionStorage.getItem("dataTable30");
+	}
+	
+function DeleteDataSession ()
+	{
+	sessionStorage.removeItem("dataTable1");
+	document.getElementById("dataTable1").value = "";
+	sessionStorage.removeItem("dataTable2");
+	document.getElementById("dataTable2").value = "";
+	sessionStorage.removeItem("dataTable3");
+	document.getElementById("dataTable3").value = "";
+	sessionStorage.removeItem("dataTable4");
+	document.getElementById("dataTable4").value = "";
+	sessionStorage.removeItem("dataTable5");
+	document.getElementById("dataTable5").value = "";
+	sessionStorage.removeItem("dataTable6");
+	document.getElementById("dataTable6").value = "";
+	sessionStorage.removeItem("dataTable7");
+	document.getElementById("dataTable7").value = "";
+	sessionStorage.removeItem("dataTable8");
+	document.getElementById("dataTable8").value = "";
+	sessionStorage.removeItem("dataTable9");
+	document.getElementById("dataTable9").value = "";
+	sessionStorage.removeItem("dataTable10");
+	document.getElementById("dataTable10").value = "";
+	sessionStorage.removeItem("dataTable11");
+	document.getElementById("dataTable11").value = "";
+	sessionStorage.removeItem("dataTable12");
+	document.getElementById("dataTable12").value = "";
+	sessionStorage.removeItem("dataTable13");
+	document.getElementById("dataTable13").value = "";
+	sessionStorage.removeItem("dataTable14");
+	document.getElementById("dataTable14").value = "";
+	sessionStorage.removeItem("dataTable15");
+	document.getElementById("dataTable15").value = "";
+	sessionStorage.removeItem("dataTable16");
+	document.getElementById("dataTable16").value = "";
+	sessionStorage.removeItem("dataTable17");
+	document.getElementById("dataTable17").value = "";
+	sessionStorage.removeItem("dataTable18");
+	document.getElementById("dataTable18").value = "";
+	sessionStorage.removeItem("dataTable19");
+	document.getElementById("dataTable19").value = "";
+	sessionStorage.removeItem("dataTable20");
+	document.getElementById("dataTable20").value = "";
+	sessionStorage.removeItem("dataTable21");
+	document.getElementById("dataTable21").value = "";
+	sessionStorage.removeItem("dataTable22");
+	document.getElementById("dataTable22").value = "";
+	sessionStorage.removeItem("dataTable23");
+	document.getElementById("dataTable23").value = "";
+	sessionStorage.removeItem("dataTable24");
+	document.getElementById("dataTable24").value = "";
+	sessionStorage.removeItem("dataTable25");
+	document.getElementById("dataTable25").value = "";
+	sessionStorage.removeItem("dataTable26");
+	document.getElementById("dataTable26").value = "";
+	sessionStorage.removeItem("dataTable27");
+	document.getElementById("dataTable27").value = "";
+	sessionStorage.removeItem("dataTable28");
+	document.getElementById("dataTable28").value = "";
+	sessionStorage.removeItem("dataTable29");
+	document.getElementById("dataTable29").value = "";
+	sessionStorage.removeItem("dataTable30");
+	document.getElementById("dataTable30").value = "";
+	}
+
+	//end
